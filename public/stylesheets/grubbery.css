@@ -1,0 +1,46 @@
+li.workselected a { color: #F20500; }
+
+body {
+    font-family: 'Lato';
+}
+
+a:hover {
+    color: #F20500;
+    text-decoration: none;
+}
+
+.link:visited {
+    text-decoration: none;
+}
+
+h2 {
+	color: #F20500;
+}
+
+.title {
+    text-align: justify;
+    margin: 30px 20px 0 24px;
+}
+
+.projectBlurb {
+    text-align: justify;
+    margin: 0 10px 30px 10px;
+    font-size: 19px;
+}
+
+#main {
+	margin-left:200px;
+	margin-right:200px;
+}
+
+.grey {
+    color:#606060;
+}
+
+.link {
+    color: #F20500;
+}
+
+.images {
+    margin-left: 10px;
+}

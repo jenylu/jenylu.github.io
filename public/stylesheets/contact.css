@@ -1,0 +1,18 @@
+li.contactselected a { color: #F20500; }
+
+#main {
+	margin-left:200px;
+	margin-right:200px;
+	margin-top: 30px;
+	font-family: 'Lato';
+}
+
+h2 {
+	display: block;
+	margin: auto;
+}
+
+a:hover {
+    color: #F20500;
+    text-decoration: none;
+}

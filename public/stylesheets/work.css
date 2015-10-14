@@ -1,0 +1,10 @@
+li.workselected a { color: #F20500; }
+
+a:hover {
+    color: #F20500;
+    text-decoration: none;
+}
+
+#content {
+	height: 1100px;
+}

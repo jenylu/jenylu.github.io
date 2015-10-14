@@ -1,0 +1,48 @@
+/*body {
+    background-color: #F8F8F8;
+}
+*/
+
+li.homeselected a { 
+    color: #F20500; 
+}
+
+a:hover {
+    color: #F20500;
+    text-decoration: none;
+}
+
+.bodytext {
+    font-family: 'Lato';
+}
+
+#content {
+    min-height:1700px;
+    height: auto !important;
+    margin-left:200px;
+    margin-right:200px;
+}
+
+.shortBlurb {
+    text-align: center;
+    margin: 30px auto 30px auto;
+    width: 35em;
+    font-size: 22px;
+}
+
+.hello {
+    text-align: center;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30em;
+   /* font-size: 30px;*/
+}
+
+.block {
+    /*background-color: #F20500;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: #fff;*/
+    /*color: #FF4040;*/
+}
