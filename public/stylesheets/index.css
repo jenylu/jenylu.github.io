@@ -17,10 +17,10 @@ a:hover {
 }
 
 #content {
-    min-height:1700px;
     height: auto !important;
     margin-left:200px;
     margin-right:200px;
+    margin-bottom: 1500px;
 }
 
 .shortBlurb {
