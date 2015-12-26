@@ -1,14 +1,5 @@
 li.workselected a { color: #F20500; }
 
-body {
-    font-family: 'Lato';
-}
-
-a:hover {
-    color: #F20500;
-    text-decoration: none;
-}
-
 .link:visited {
     text-decoration: none;
 }

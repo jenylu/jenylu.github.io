@@ -21,34 +21,40 @@
 
     <script src="https://code.jquery.com/jquery.js"></script>
     <script src="js/bootstrap.js"></script>
+
+      <script src="js/responsive-nav.js"></script>
     
-    <h1 class="centerlogo">
+   {{!--  <h1 class="centerlogo">
       <a href="/" title="How you doin'?" role="bookmark" data-content-field="site-title">
         <img class="logo" src="images/JL_Logo3.png" alt="Jennifer Lu"></span>       
       </a>
-    </h1>
-    <ul class="navigation">
+    </h1> --}}
+ {{!--    <ul class="navigation">
       <li class="homeselected"><a href="/">HOME</a></li>
       <li class="workselected"><a href="/work">WORK</a></li>
       <li class="artselected"><a href="/art">ART</a></li>
       <li class="aboutselected"><a href="/about">ABOUT</a></li>
       <li class="contactselected"><a href="/contact">CONTACT</a></li>
-    </ul>
-{{!--   <header id="header">
-  <div class="container">
-    <h1>Site Title</h1>
-    <nav id="nav">
-      <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Services</a></li>
-        <li><a href="#">History</a></li>
-        <li><a href="#">Contact</a></li>
-      </ul>
-    </nav>
-  </div>
-</header> --}}
-
+    </ul> --}}
+<div class="wrapper">
+ <header>
+    {{!--   <a href="#home" class="logo" data-scroll>Jennifer Lu</a> --}}
+       <h1 class="centerlogo">
+      <a href="/" title="How you doin'?" role="bookmark" data-content-field="site-title">
+        <img class="logo" src="images/JL_Logo3.png" alt="Jennifer Lu"></span>       
+      </a>
+    </h1>
+      <nav class="nav-collapse">
+        <ul class="navigation">
+          <li class="homeselected"><a href="/">HOME</a></li>
+          <li class="workselected"><a href="/work">WORK</a></li>
+          <li class="artselected"><a href="/art">ART</a></li>
+          <li class="aboutselected"><a href="/about">ABOUT</a></li>
+          <li class="contactselected"><a href="/contact">CONTACT</a></li>
+        </ul>
+      </nav>
+    </header>
+</div>
     {{{body}}}    
     
     <footer class="footer-basic-centered">
@@ -63,19 +69,8 @@
 
     </footer>
 
-    <script>
-      $(function(){
-        $('#nav').click(function() {
-          $(this).toggleClass('open');
-        });
-      });
-    </script>
-    {{{_sections.bodyscripts}}}
-    <script src="js/bootstrap.js"></script>
 
+    <script src="js/bootstrap.js"></script>
     
 </body>
 </html>
-
-
-
