@@ -1,35 +1,11 @@
 li.aboutselected a { color: #F20500; }
 
-#main {
-	margin-left:200px;
-	margin-right:200px;
-	margin-top: 30px;
-}
-
-.me {
-	width: 300px;
-	display: block;
-	margin: auto;
-}
-
-.meblurb {
-	font-family: 'Lato';
-	font-size: 18px;
-	text-align: justify;
-	padding-left: 60px;
-}
-
 .highlight {
 	color: #F20500;
 }
 
 .link {
     color: #F20500;
-}
-
-a:hover {
-    color: #F20500;
-    text-decoration: none;
 }
 
 .link:visited {

@@ -13,17 +13,6 @@ h2 {
     margin: 30px 20px 0 24px;
 }
 
-.projectBlurb {
-    text-align: justify;
-    margin: 0 10px 30px 10px;
-    font-size: 19px;
-}
-
-#main {
-	margin-left:200px;
-	margin-right:200px;
-}
-
 .grey {
     color:#606060;
 }
@@ -32,6 +21,13 @@ h2 {
     color: #F20500;
 }
 
-.images {
-    margin-left: 10px;
+.link:hover {
+    text-decoration: none;
+    color:#606060;
+}
+
+.images img {
+    margin-top: 5px; 
+    width: 250px;
+    height:490px;
 }
