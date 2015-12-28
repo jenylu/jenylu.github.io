@@ -17,6 +17,10 @@ h2 {
     color:#606060;
 }
 
+.greycolor {
+    color:#606060;
+}
+
 .link {
     color: #F20500;
 }
@@ -27,12 +31,21 @@ h2 {
 }
 
 .grubberyimages img {
-    margin-top: 5px; 
+    margin-top: 10px; 
     width: 250px;
     height:490px;
 }
 
 .esimages img {
-    margin-top: 5px; 
+    margin-top: 10px; 
     height: 450px;
+}
+
+.gcubeimages img {
+    margin-top: 10px; 
+    height: 290px;
+}
+
+.red {
+    color: #F20500;
 }
