@@ -1,14 +1,16 @@
+/********************* Colour reference chart****************
+*************************** comment ********* colour ******** 
+
+red text colour             rt               #F20500
+mobile nav bg color         navbg            rgba(128,128,128,0.2)             
+*/
+
 @font-face {
     font-family: 'MANIFESTO';
     src: url('fonts/MANIFESTO.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
-
-
-
-
-
 
 @-webkit-viewport { width: device-width; }
 @-moz-viewport { width: device-width; }
@@ -159,6 +161,7 @@ label {
   user-select: none;
   margin: 0;
   background: rgba(0, 0, 0, 0.4);
+  background: #F20500; /*rt*/
 }
 
 /* big screens */
@@ -260,6 +263,7 @@ nav[role="off-canvas"] ul > li:hover > a {
     left: -20em;
     width: 20em;
     opacity: 0;
+    background: rgba(128,128,128,0.2); /*navbg*/
   }
   nav[role="off-canvas"] ul > li {
     height: 100%;
@@ -285,13 +289,13 @@ nav[role="off-canvas"] ul > li:hover > a {
 
   label:hover,
   input:checked ~ label {
-    color: #000;
+    color: #fff;
   }
 
   input:checked ~ nav[role="off-canvas"] {
     opacity: 1;
     left: 0;
-    box-shadow: -30em 0 0 30em rgba(0, 0, 0, 0.3);
+    box-shadow: -30em 0 0 30em rgba(128,128,128,0.2); /*navbg*/
   }
   input:checked ~ nav[role="off-canvas"] ul > li {
     padding: .55em .55em .55em 1.5em;
@@ -388,6 +392,10 @@ nav[role="off-canvas"] ul > li:hover > a {
     transition: color .3s ease-in-out;
     opacity: 0.9;
     background-color: #F20500;
+}
+
+.fa-2 {
+    font-size: 1.5em;
 }
 
 .footer-basic-centered{
