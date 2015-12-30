@@ -532,6 +532,10 @@ footer{
     color: #fff;
 }
 
+.grid .lastgrid {
+  margin-bottom: 100px;
+}
+
 /* Individual effects */
 
 /*---------------*/
